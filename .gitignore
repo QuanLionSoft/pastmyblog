@@ -1,0 +1,25 @@
+# Bağımlılıklar
+node_modules/
+
+# Derleme çıktısı
+dist/
+build/
+
+# Çalışma zamanı verisi (JSON veritabanı ilk açılışta otomatik oluşturulur)
+server/data/*.json
+
+# Ortam değişkenleri
+.env
+.env.local
+
+# Loglar
+*.log
+npm-debug.log*
+
+# Sistem dosyaları
+.DS_Store
+Thumbs.db
+
+# Editör
+.vscode/
+.idea/
